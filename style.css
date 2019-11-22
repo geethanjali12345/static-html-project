@@ -1,0 +1,93 @@
+
+html, body {
+            padding:0px;
+            margin:0px;
+}
+header{
+    background-color: white;
+    height:230px;
+    padding:20px;
+}
+
+#left{
+/*    background-color: pink;*/
+    background-image: url(img/try1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    float:left;
+    height:1100px;
+    width:100px;
+    margin-top: -400px;
+/*    overflow:hidden;*/
+}
+#right{
+/*    background-color: green;*/
+    background-image: url(img/try1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    float:right;
+    height:1100px;
+    width:100px;
+    margin-top: -400px;
+}
+#container{
+    background-color: #052D6A;
+    height:50px;
+    margin-top:-20px;
+    
+}
+ul{
+     list-style-type: none;
+/*makes move link to center*/
+     padding-top: 10px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+
+}
+li{
+    
+    display: inline;
+    font-size:20px;
+    padding:10px;
+}
+.menu{
+/*    padding-top: 15px;*/
+   
+}
+#headerdiv{
+  float:right;
+/*    lets u move towards left*/
+   
+}
+a.mail{
+    text-decoration: none;
+    padding-left:30px;
+    color:#95AAC0;
+}
+#homeimage{
+    background-image:url(img/art.jpg);
+    height:300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+}
+#imgscroll{
+   margin: 10px;
+    margin-left: 5px;   
+}
+.imggallery{
+    padding:4px;
+/*    padding-left: 10px;*/
+    padding-right: 6px;
+}
+#content{
+   color:aqua;
+}
+#shop{
+    text-align: center;
+    font-size: 30px;
+}
